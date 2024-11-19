@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My site</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            body{
+                background-attachment:fixed;
+                background:red url('image/amazon.png') no-repeat; /* é possivel aplicar duas operacoes no background*/
+                background-position: center bottom;
+            }   
+            #entrada{
+                background-color: red;
+                text-align: left; /* alinhamento de texto*/
+                border: 10px inset red; /* bordas do site tamanho/modelo/cor */
+                font-size: 20px;
+                font-family:'Courier New', Courier, monospace;
+            }
+            .sso{
+                background-color: bisque;
+            }
+            .amarelo{
+                background-color: yellow;
+            }
+            .shrek{
+            
+                font-size: 2em; /*em usado como tamanho relativo em relacao a classe pai*/
+            }
+        </style>
+    </head>
+    <body>
+        <div id="entrada">
+            <h1> Bem Vindo!</h1>
+            
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae expedita a saepe, eius quas aperiam esse consequuntur ad autem, repellat voluptatem? Consequuntur fugit est aut illo ullam? Optio, quod vero!</p>    
+            <br>
+            <h2>Mais coisas</h2>
+            <p><em><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quisquam adipisci, dolorem quos a rem perferendis iure assumenda, alias, sapiente veniam autem iste saepe consequatur iusto illum obcaecati laudantium expedita!</strong></em></p>
+        </div>
+       
+        <div class="amarelo">o escobydoo <span class="sso">é um bom</span>cachorro assim como o salsicha</div> <!-- span formatacoes especificas de texto-->
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="shrek">
+            <p class="amarelo">SCOBYYYYYYY DOOOOO</p><!-- a class do filho vai além do pai-->
+        </div>
+    </body>
+</html>
