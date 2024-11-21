@@ -1,4 +1,4 @@
-//alert ('vai toamr no meio do seu cu') //alerta que aparece na tela
+//alert ('vai tomar banho') //alerta que aparece na tela
 /*
 
 var texto = 'Crusojava' //variavel do tipo string
