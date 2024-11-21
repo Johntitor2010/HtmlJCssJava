@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+    var aluno = prompt('qual seu nome?')
+    var media 
+    var nota = prompt ('Qual sua primeira nota?')
+    var nota2 = prompt ('Qual sua segunda nota?')
+    nota2 = parseFloat(nota2)
+    nota = parseFloat(nota)
+    media = (nota + nota2) /2
+        
+
+        if(media >= 7 ) {
+            document.write ( aluno +'está aprovado por média')
+        }
+        else {
+            document.write ( aluno + '<hr> Est[a] REPROVADO')
+        }
+    </script>
+</body>
+</html>
