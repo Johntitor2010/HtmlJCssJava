@@ -1,0 +1,23 @@
+.conteudo { /* classe conteudo, pode ser usada para reproduzir em divs modificações compartilhadas */
+    background: blue; 
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+.conteudo1 {
+    background: rgb(255, 0, 0); 
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+.clear{
+    clear: left; /* limpa o efeito do float*/
+}
+
+#shrek {  /* referindo ao ID entrada, um ID é algo que só usamos uma vez e não reproduzimos varias vezes como uma classe */
+    background: red ;
+}
